@@ -1,7 +1,7 @@
 #Atolm by SkiesOfAzel and Ceedeebg/MonkeyMagico.
 #License GPL3
 
-gtk-color-scheme = "base_color:#c8c8c8\nfg_color:#ececec\ntooltip_fg_color:#ffffff\nselected_bg_color:#304665\nselected_fg_color:#FFFFFF\ntext_color:#3C3C3C\nbg_color:#3c3c3c\ntooltip_bg_color:#000000\nlink_color:#486a98"
+gtk-color-scheme = "base_color:#222\nfg_color:#ffffff\ntooltip_fg_color:#ffffff\nselected_bg_color:#304665\nselected_fg_color:#FFFFFF\ntext_color:#fff\nbg_color:#3c3c3c\ntooltip_bg_color:#000000\nlink_color:#486a98"
 gtk_color_scheme = "frame_color:#323232\ninactive_frame_color:#323232"			# Fix for Chrome
 gtk-icon-sizes 					= "panel-menu=22,22:gtk-button=16,16"
 

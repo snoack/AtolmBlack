@@ -135,9 +135,9 @@
  ****************/
 .entry,
 .toolbar.entry {
-    background-color: #c8c8c8;
+    background-color: #222;
     background-image: none;
-    color: #000;
+    color: #fff;
     border-radius: 2;
     border-width: 1;
     border-style: solid;
@@ -315,7 +315,7 @@ GtkCalendar {
 }
 
 .frame {
-    color: #111;
+    color: #fff;
     border-style: solid;
     border-width: 1;
 }
@@ -998,8 +998,8 @@ GtkIconView.view.cell:selected:focused {
 }
 
 .view {
-    background-color: #c8c8c8;
-    color: #222;
+    background-color: #222;
+    color: #fff;
     border-radius: 0;
     border-width: 2;
 }
@@ -1177,8 +1177,8 @@ CheeseThumbView /* Cheese */
 
 /* gnome-terminal */
 TerminalScreen {
-    background-color: #c8c8c8;
-    color: #000;
+    background-color: #222;
+    color: #fff;
     -TerminalScreen-background-darkness: 0.95;
 }
 
@@ -1251,4 +1251,13 @@ GsmFailWhaleDialog * {
     background-color: @os_chrome_bg_color;
     background-image: none;
     color: @os_chrome_fg_color;
+}
+
+NdBubble {
+	background-color: #ddd;
+	color: #000;
+}
+
+NdBubble * {
+	color: #000;
 }
